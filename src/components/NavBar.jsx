@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 const NavBar = () => {
     const { cartTotalQuantity } = useSelector((state) => state.cart);
     return <nav className= "nav-bar">
-        <Link to={'/'}><h2>Lemonade Store</h2></Link>
+        <Link to={'/'}><h2>LimoStory</h2></Link>
         <Link to={'/cart'}>
         <div className = "nav-bag">
         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" className="bi bi-handbag-fill" viewBox="0 0 16 16">
